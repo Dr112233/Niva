@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.toggle-scene {
+    overflow: visible !important;
+    height: 50vmin;
+    position: absolute;
+}
+
+.toggle-scene__cord {
+    stroke: var(--cord, gray);
+    cursor: pointer;
+}
+
+#bulb circle {
+    fill: transparent;
+    transition: fill 0.3s;
+}
